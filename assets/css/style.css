@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 236px;   
+}
+
+.ad {
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.ad .price{
+    width: 78px;
+    background-color: #a33b66;
+    color: #fff;
+    padding: 3px;
+    border-radius: 0 0 3px 0;
+    position: absolute;
+    bottom: -21px;
+    font-size: 16px;
+    display: block;
+    height: 25px;
+}
+
+
+.ad .favs button{
+    background-color: #fff;
+    position: absolute;
+    right: 13px;
+    border: none;
+    font-size: 20px;
+}
+
+.title{
+    background-color: #fff;
+    position: absolute;
+    bottom: -69px;
+    display: block;
+    font-size: 20px;
+}
+
+
+.ad .date{
+    background-color: #fff;
+    position: absolute;
+    bottom: -92px;
+    display: block;
+    font-size: 16px;
+    color: gray;
+}
+
+.ad .crown{
+    color: yellow;
+    position: absolute;
+    bottom: -92px;
+    right: 42px;
+    display: block;
+    font-size: 16px;
+}
+
+.ad .vip{
+    color: rgb(224, 28, 28);
+    position: absolute;
+    bottom: -92px;
+    right: 20px;
+    display: block;
+    font-size: 16px;
+}
